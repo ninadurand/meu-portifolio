@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { NavBar } from "./components/NavBar"; // Importação correta
 
 export default function Home() {
   return (
@@ -11,14 +12,16 @@ export default function Home() {
       height: "100vh",
       fontFamily: "Arial"
     }}>
+      <NavBar /> {/* Componente sendo usado */}
+
       <img 
         src="/minha-foto.jpg" 
         alt="Foto de Marina Durand" 
-        style={{ borderRadius: "50%", width: "150px", height: "150px" }} 
+        style={{ borderRadius: "50%", width: "150px", height: "150px", marginTop: '20px' }} 
       />
       <h1>Marina Durand</h1>
       <p>Meu nome é Marina Durand, sou estudante de Computação.</p>
       <p>Gosto de aprender coisas novas e tenho interesse em design.</p>
-    </div>
-  );
+    </div>
+  );
 }
