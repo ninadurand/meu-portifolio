@@ -15,7 +15,7 @@ export default function Page() {
     switch (currentPage) {
       case 'Início': return <HomePage />
       case 'Sobre Mim': return <AboutPage />
-      case 'Projetos': return <ProjectsPage />
+      case 'Desenhos': return <ProjectsPage />
       case 'Jogo da Forca': return <HangmanGame />
       default: return <HomePage />
     }

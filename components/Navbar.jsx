@@ -1,5 +1,5 @@
 export default function Navbar({ onNavClick }) {
-  const navItems = ['Início', 'Sobre Mim', 'Projetos', 'Jogo da Forca']
+  const navItems = ['Início', 'Sobre Mim', 'Desenhos', 'Jogo da Forca']
 
   return (
     <nav className="navbar navbar-dark bg-dark fixed-top shadow-sm py-3">
