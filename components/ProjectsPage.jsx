@@ -1,7 +1,7 @@
 export default function ProjectsPage() {
    const drawings = [
     { title: 'Contra Cardume', image:'Desenhos/Contra_cardume.jpeg' },
-    { title: 'O Tigre', image: 'Desenhos/O_tigre.jpeg' },
+    { title: 'O Tigre', image: 'Desenhos/O_Tigre.jpeg' },
     { title: 'Inverso de Mim', image: 'Desenhos/Inverso_de_mim.jpeg' },
     { title: 'Rascunho', image: 'Desenhos/Rascunho.jpeg' },
   ]
